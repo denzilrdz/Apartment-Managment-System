@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    
+<style>
+    .dropdown:hover>.dropdown-menu
+    {
+        display:block;
+    }
+    .dropdown-item:hover
+    {
+        background-color: brown;
+    }
+    .navbar
+    {
+        background-color:black;
+    }
+    .navbar-brand
+    {
+        font-size: 28px;
+    }
+    .amenitiescss
+    {
+      font-size: 25px;
+      text-align: center;
+      font-family:'Ubuntu',sans-serif;
+      font-weight: bolder;
+    }
+    .glow
+    {
+      text-shadow:2px 2px 5px black;
+    }
+
+    .card .card-title .card-text
+    {
+      text-align:center;
+    }
+
+    .card
+    {
+      background:#0e1a35;
+    }
+    .nav-link,.navbar-brand
+    {
+    color: white;
+    }
+</style>
+
+    </head>
+    <body> 
+       <nav class="navbar navbar-expand-md fixed-top">
+           <a class="navbar-brand" href="index.html">Maurishka Park </a>
+           <span class="mt-3 text-secondary"><i>Happy and Safe</i></span>
+           <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#myMenu">
+            <span class="navbar-toggler-icon"></span>  
+            </button>
+           <div class="collapse navbar-collapse" id="myMenu">
+               <ul class="navbar-nav ml-auto mt-2 ">
+                <li class="nav-item">
+                    <div class="dropdown open align-left">
+                       <a class="btn text-white" class="nav-link" aria-haspopup="true" aria-expanded="false" type="button" id="triggerId" data-toggle="dropdown"><i class="fas fa-user font-size:40px"></i></a>
+                       <div class="dropdown-menu bg-dark" aria-labelledby="triggerId">
+                        <a class="dropdown-item text-white" href="Admin/AdminLogin.jsp">Admin</a>  
+                        <a class="dropdown-item text-white" href="Resident/TenentLogin.jsp">Resident</a> 
+                        <a class="dropdown-item text-white" href="Visitors Logger/WatchmanLogin.jsp">Visitors Logger</a>
+                        <a class="dropdown-item text-white" href="Guest/GuestLogIn.jsp">Guest</a>
+                       </div>
+                   </div></li>
+                   <li class="nav-item"> <a href="#amenities" class="nav-link">Amenities</a> </li>
+                   <li class="nav-item"> <a href="#aboutus" class="nav-link">About Maurishka </a> </li>
+                   <li class="nav-item"><a class="nav-link" href="#contactus">Contact us</a></li>
+                </ul>              
+           </div>
+       </nav>
+       <div id="myslide" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100 h-30" src="images/img1.jpg" >
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/img1.jpg">
+          </div>
+         </div>
+        <a class="carousel-control-prev" href="#myslide" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          <span class="sr-only"></span>
+        </a>
+        <a class="carousel-control-next" href="#myslide" role="button" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          <span class="sr-only"></span><div id="amenities"></div>
+        </a>
+      </div>
+          
+      <div class="amenitiescss bg-dark text-white mt-3 glow" >Amenities</div>    
+      <div class="row">
+            <div class="col-md-4">
+              <div class="card text-left ml-3 mt-2 mb-4">
+              <img class="card-img-top" src="images/gym.jpeg" alt="">
+                <div class="card-body">
+                  <h4 class="card-title text-white">Gym</h4>
+                  <p class="card-text text-white">In-campus Gym saves your time </p>
+                </div>
+              </div></div>
+              <div class="col-md-4">
+                <div class="card text-left mt-2">
+                  <img class="card-img-top" src="images/pool.jpg" alt="">
+                  <div class="card-body">
+                    <h4 class="card-title" style="color:white;">Swimming Pool</h4>
+                    <p class="card-text text-white">Fitness and Joy, This is the place!</p>
+                  </div>
+                </div>
+               </div>
+               <div class="col-md-4">
+                <div class="card text-left mr-1 mt-2">
+                  <img class="card-img-top"
+                   src="images/hall.jpg" alt="">
+                  <div class="card-body">
+                    <h4 class="card-title text-white">Hall</h4>
+                    <p class="card-text text-white">Invite Your Loved ones, Have a good time</p>
+                  </div>
+                </div></div>
+               </div>
+              </div>
+            </div>
+
+            <div class="jumbotron mt-2 text-white" id="aboutus" style="border-radius: 1rem; background-color: black;">
+              <h3 class="text-white text-center ">About Maurishka</h3>
+              <p class="lead">Maursihka Park Apartments is located in the heart of the city of Mangalore, Calm place to live in with various amenities offered to the residents with helpful Staff and Security
+              Maurishka Park has also earned the reputation of being one of Mangalore's most trusted realty comapanies. 
+              With Malls and Supermarkets in vicinty, It is a great choice guranteeing you convinience </p>
+            </div>
+
+            <div id="contactus"><h3>Contact us</h3>
+            <p style="font-family:'Times New Roman', Times, serif";>Phone no.:0824-2986866 
+                                      9480394686</p>
+            <p style="font-family:";>email:maurishkapark007@gmail.com</p>
+            <p>Address:PVS Kalakunj Rd., opp. Sharada Vidyalaya<br>Kodailbail,Mangalore,<br>Karnataka 575003</p>  
+          </div>
+
+            
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
