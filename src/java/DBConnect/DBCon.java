@@ -19,6 +19,6 @@ public class DBCon {
     final public static String ePass = "Admin123#"; //Password of email
     final public static String paytmMID = "dBQcSe88042169273317"; //Paytm merchant ID
     final public static String paytmCHANNEL_ID = "WEB"; //Paytm channel ID
-    final public static String paytmINDUSTRY_TYPE_ID = "Retail"; //Industry Type
+    final public static String paytmINDUSTRY_TYPE_ID = "Retail"; //Paytm Industry Type
     final public static String paytmWEBSITE = "WEBSTAGING"; //Website
 }
