@@ -25,7 +25,7 @@
          <div class="container-fluid">
             <div class="row justify-content-center">
         <div class="col-sm-9 col-md-5 ">
-            <div class="jumbotron col-md-9 col-sm-9 mt-3 shadow-lg" style="background-color:#111;">
+            <div class="jumbotron col-md-9 col-sm-9 mt-3 ml-2 shadow-lg" style="background-color:#111;">
                 <form action="RequestMail.jsp">
                     <label>Email</label>
                     <input type="mail" name="email" value=""  placeholder="Email id" class="form-control" required/><br>

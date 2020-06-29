@@ -59,7 +59,7 @@
                 while (rs1.next()) {
                     status = rs1.getBoolean(3);
                     if (rs1.getBoolean(3) && (rs1.getDate(2).after(curr))) {%>
-        <h3 style="Color:white;">Already a member till <%=rs1.getDate(2)%></h3>
+        <h4 style="Color:white;" class="ml-3">Already a member till <%=rs1.getDate(2)%></h3>
         <%
                 } else if (rs1.getBoolean(3) && (rs1.getDate(2).before(curr))) {
                     out.print("Membership expired");
@@ -70,7 +70,7 @@
                 int a = s.executeUpdate("INSERT INTO `gym_swimming`(`regno`, `email`, `bdate`, `edate`, `o_id`, `status`) VALUES (" + regno + ",'" + session.getAttribute("tname") + "','" + cdate + "','" + edate + "','MPA" + o_id + "',0)");
         %>
         <div class="col-sm-9 col-md-5 ">
-            <div class="jumbotron col-md-7 col-sm-9 mt-3 shadow-lg" style="background-color:#111;">
+            <div class="jumbotron col-md-7 col-sm-9 mt-3 ml-2 shadow-lg" style="background-color:#111;">
                 <h3 class="display-5" style="text-align: center;color:white;">Gym Membership</h3>
         <form action="gymRedirect.jsp" method="POST">   
           <label>  Amount to be paid </label><input type="text" class="form-control" name="TXN_AMOUNT" value=<%=gymprice%> readonly="readonly" /><br>

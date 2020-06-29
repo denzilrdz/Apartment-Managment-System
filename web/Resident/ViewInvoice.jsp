@@ -19,7 +19,7 @@
                 Connection con = DriverManager.getConnection(DBCon.DBURL,DBCon.DBusername,DBCon.DBpassword);
                 Statement s=con.createStatement();
                 %>
-                <div class="col-sm-8 col-md-6 mt-2 "> 
+                <div class="col-sm-9 col-md-5 mt-2 ml-2 "> 
                 <table class="table table-striped text-white" style="text-align:center;">
           <thead class="bg-dark text-white">
                      <tr style="text-align: center;">
@@ -46,7 +46,6 @@
                 %>
             </tbody>
         </table>
-        <button type="submit" class="btn btn-danger d-print-none" onclick="window.print()">Print</button>
                 </div>
 
                 

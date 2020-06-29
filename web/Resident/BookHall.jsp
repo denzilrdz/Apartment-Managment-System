@@ -44,7 +44,7 @@
             }
         %>
         <div class="col-sm-9 col-md-5 ">
-            <div class="jumbotron col-md-7 col-sm-9 mt-3 shadow-lg" style="background-color:#111;">
+            <div class="jumbotron col-md-7 col-sm-9 mt-3 ml-2 shadow-lg" style="background-color:#111;">
                 <h3 class="display-5" style="text-align: center;">Book Hall</h3>
                 <form action="BookHallDB.jsp" method="POST">
                     <label>Select Date</label>

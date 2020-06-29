@@ -5,7 +5,6 @@
 <%@ page import="java.util.*,com.paytm.pg.merchant.CheckSumServiceHelper"%>
 <%
 Enumeration<String> paramNames = request.getParameterNames();
-
 Map<String, String[]> mapData = request.getParameterMap();
 TreeMap<String,String> parameters = new TreeMap<String,String>();
 String paytmChecksum =  "";
@@ -19,7 +18,6 @@ while(paramNames.hasMoreElements()) {
 }
 boolean isValideChecksum = false;
 String outputHTML="";
-
 try{
 	isValideChecksum = CheckSumServiceHelper.getCheckSumServiceHelper().verifycheckSum("eW4QZ@P2VnW@&yIl",parameters,paytmChecksum);
 	if(isValideChecksum && parameters.containsKey("RESPCODE")){
@@ -52,7 +50,7 @@ try{
                             out.print("Database exception"+e.getMessage());
                         }
 		}else{
-			outputHTML="<b>Payment Failed.</b><a href=Bookhall.jsp>Click here to try again</a>";
+			outputHTML="<b>Payment Failed.</b><a href=BookHall.jsp>Click here to try again</a>";
 		}
 	}else{
 		outputHTML="<b>Checksum mismatched.</b><a href=BookHall.jsp>Click here to try again</a>";

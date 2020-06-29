@@ -41,8 +41,8 @@
                 s.close();
                 con.close();
                 final String sub = "Password for apartment portal login";
-                final String from = DBCon.email;
-                final String pass = DBCon.ePass;
+                final String from = "maurishkapark007@gmail.com";
+                final String pass = "Admin123#";
                 Properties props = new Properties();
                 props.put("mail.smtp.host", "smtp.gmail.com");
                 props.put("mail.smtp.port", "587");

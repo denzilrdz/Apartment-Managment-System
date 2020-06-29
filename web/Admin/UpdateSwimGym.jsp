@@ -18,8 +18,8 @@
          </style>
     </head>
     <body>
-              <div class="col-sm-8 col-md-5 ">
-            <div class="jumbotron col-md-9 mt-3  shadow-lg" style="background-color:#111;">
+              <div class="col-sm-9 col-md-5 ">
+            <div class="jumbotron col-md-9 mt-3 ml-2 shadow-lg" style="background-color:#111;">
                 <h3 class="display-5 text-light" style="text-align: center;">Update Gym Pool Amount</h3>
         <form action="UpdateSwimGymDB.jsp" method="POST">
                <h5 class="mt-5"> Update amount <input class="form-control" type="text" name="amt" value="" />

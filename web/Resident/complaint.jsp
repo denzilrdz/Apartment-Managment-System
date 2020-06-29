@@ -32,8 +32,8 @@
                 out.print(e.getMessage());
             }
         %>
-        <div class="col-sm-5 col-md-5 ">
-            <div class="jumbotron col-md-9 mt-3 shadow-lg" style="background-color:#111;">
+        <div class="col-sm-9 col-md-5 ">
+            <div class="jumbotron col-md-9 mt-3 ml-2 shadow-lg" style="background-color:#111;">
                 <h3 class="display-5" style="text-align: center;color:white;">Complaint Registration</h3>
                 <form action="complaintDB.jsp" >
          <label>Subject</label>

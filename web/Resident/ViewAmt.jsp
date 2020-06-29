@@ -17,7 +17,13 @@
         }
         h4{
             color:white;
+            margin-left:20%;
         }
+         h5{
+            color:white;
+            margin-left:10%;
+        }
+        
   
      </style>
     </head>
@@ -57,8 +63,8 @@
                     o_id = randomGenerator.nextInt(1000000);
                     int i=s.executeUpdate("UPDATE `tenent_amt` SET `o_id`='MPA"+o_id+"' WHERE regno="+regno+" and status=0");
                     %>
-                    <div class="col-sm-5 col-md-5 ">
-                    <div class="jumbotron col-md-9 mt-3  shadow-lg" style="background-color:#111;"">
+                    <div class="col-sm-9 col-md-5 ">
+                    <div class="jumbotron col-md-9 mt-3 ml-2  shadow-lg" style="background-color:#111;"">
                         <h3 class="display-5" style="text-align: center;color:white;">Pay Maintenance</h3>
                     <form action="testRedirect.jsp" method="POST">
                         <div class="form-group">
@@ -92,12 +98,12 @@
                 if(status==true)
                 { 
                     
-                    out.print("<h4><br>Amount paid ");
+                    out.print("<h4><br>Amount paid</h4> ");
                 }
                 
                 if(q==0)
                 {
-                    out.print("<h4>Maintaince bill not updated</h4>");
+                    out.print("<h5>Maintaince bill not updated</h5>");
                 }
                 rs1.close();
                 rs.close();

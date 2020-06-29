@@ -83,7 +83,7 @@
          <div class="container-fluid">
             <div class="row justify-content-center">
         <div class="col-sm-9 col-md-5 ">
-            <div class="jumbotron col-md-9 col-sm-9 mt-3 shadow-lg" style="background-color:#111;">
+            <div class="jumbotron col-md-9 col-sm-9 mt-3 ml-2  shadow-lg" style="background-color:#111;">
                 <h3 class="display-5" style="text-align: center;color:white;">Change Password</h3>
                 <form action="ChangePasswordDBG.jsp" method="POST" name="f" onsubmit="return validate()">
                     <label> Old Password</label><input type="password" name="old" class="form-control" value="" /><br>

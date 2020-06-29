@@ -14,7 +14,7 @@
         <title>JSP Page</title>
         <%@include file="Header.jsp" %>
         <style>
-        h2{
+        h4{
             color:white;
         }
         label{
@@ -44,8 +44,8 @@
             if(fstatus==false)
             {
         %>
-        <div class="col-sm-5 col-md-5 ">
-        <div class="jumbotron col-md-9 mt-3 shadow-lg" style="background-color:#111;">
+        <div class="col-sm-9 col-md-5 ">
+        <div class="jumbotron col-md-9 mt-3 ml-3 shadow-lg" style="background-color:#111;">
         <h3 class="display-5" style="text-align: center;color:white">Request Service</h3>
         
         <form action="BookServiceDB.jsp" method="POST">
@@ -65,8 +65,8 @@
             }
         else
             { %>
-                <h2>Service requested for service ID <%=slno%></h2>
-                <h2> <a href=techDetail.jsp>  Click here for technician detail</a></h2> <%
+                <h4 class="ml-3">Service requested for service ID <%=slno%></h4>
+                <h4 class="ml-3"> <a href=techDetail.jsp>  Click here for technician detail</a></h4> <%
             }
                 rs.close();
                 s.close();

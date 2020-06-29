@@ -24,8 +24,8 @@
 
                 Statement s = con.createStatement();
             %>
-            <div class="col-sm-5 col-md-5 lg-3">
-            <div class="jumbotron col-md-9 mt-3 shadow-lg" style="background-color:#111;">
+            <div class="col-sm-9 col-md-5 lg-3">
+            <div class="jumbotron col-md-9 mt-3 ml-2 shadow-lg" style="background-color:#111;">
                 <h3 class="display-5 text-light" style="text-align: center;">Select to remove</h3>
                 <%
                 out.print("<form action=LogExitDB.jsp>");

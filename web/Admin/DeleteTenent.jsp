@@ -24,8 +24,8 @@
                             Statement s = con.createStatement();
                             ResultSet rs = s.executeQuery("SELECT `apart_no`, email FROM `tenent_email`");
     %>
-        <div class="col-sm-5 col-md-5 lg-3">
-            <div class="jumbotron col-md-9 mt-3 shadow-lg" style="background-color:#111;">
+        <div class="col-sm-9 col-md-5 lg-3">
+            <div class="jumbotron col-md-9 mt-3 ml-2 shadow-lg" style="background-color:#111;">
                 <h3 class="display-5 text-light" style="text-align: center;">Delete Tenant</h3>
                 <form action="DeleteTenentDB.jsp" method="POST">
                     <h5 class="mt-3 text-white" > Select tenant to be deleted </h5>

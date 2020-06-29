@@ -67,8 +67,7 @@
         background-color: brown;
     }
     body{
-                background-color:rgb(54, 54, 54);
-                overflow-x:hidden;    
+                background-color:rgb(54, 54, 54); 
     }
 
    
@@ -76,7 +75,7 @@
 </head>
 <body>
 
-    <nav class="navbar">
+    <nav class="navbar d-print-none">
         <a class="navbar-brand " href="../index.html">Maurishka Park </a>
                  <a class="btn text-white" href="Logout.jsp"><i class="fas fa-sign-out-alt" style="font-size:20px;"></i> Logout </a>
     </nav>
@@ -84,7 +83,7 @@
 
      <div class="row">
         <div class="col-md-4 col-sm-4 col-lg-4 " style="height:35%;"> 
-            <div class="sidebar">
+            <div class="sidebar d-print-none">
             
            
                 <a href="TenentRegister.jsp"><i class="fa fa-fw fa-user"></i>Register new Tenant</a>

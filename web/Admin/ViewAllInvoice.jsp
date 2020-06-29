@@ -25,7 +25,7 @@
                 Connection con = DriverManager.getConnection(DBCon.DBURL, DBCon.DBusername, DBCon.DBpassword);
                 Statement s = con.createStatement();
         %>
-         <div class="col-sm-11 col-md-6 col-lg-7 mt-2 text-light">
+         <div class="col-sm-9 col-md-5 col-lg-7 mt-2 ml-2 text-light">
                     <table class="table text-white " style="text-align:center;">
                       <thead class="bg-dark text-white">
                         <tr style="text-align: center;">

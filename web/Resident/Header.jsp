@@ -54,6 +54,7 @@
    
     body{
         background-color:rgb(54, 54, 54);
+      
     }
     .ho:hover {
         color:white;

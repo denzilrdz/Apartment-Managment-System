@@ -14,7 +14,7 @@
                 ResultSet rs = s.executeQuery("SELECT `apart_no` FROM `apartment` WHERE `status`=0");
         %>
     <div class="col-sm-9 col-md-5 ">
-        <div class="jumbotron col-sm-9 col-md-9 mt-3 shadow-lg" style="background-color:#111;">
+        <div class="jumbotron col-sm-9 col-md-9 mt-3 ml-2 shadow-lg" style="background-color:#111;">
             <h3 class="display-5 text-light" style="text-align: center;">Register Tenant</h3>
             <form action="TenentDB.jsp" method="POST">
                 <input type="email" class="form-control mt-4 mb-3" placeholder="EMAIL" name="mail" required>

@@ -44,8 +44,8 @@
                 final String msg="Vist appointment for apartment type "+typ+" is on "+da;
                 final String sub="Visit Appointment";
                 final String to=ma;
-                final String from= DBCon.email;
-                final String pass= DBCon.ePass;
+                final String from="maurishkapark007@gmail.com";
+                final String pass="Admin123#";
                 Properties props = new Properties();
                 props.put("mail.smtp.host","smtp.gmail.com");
                 props.put("mail.smtp.port","587");
