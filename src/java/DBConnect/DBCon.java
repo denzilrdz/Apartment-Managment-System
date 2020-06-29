@@ -11,14 +11,14 @@ package DBConnect;
  */
 public class DBCon {
 
-    final public static String DriverURL = "com.mysql.cj.jdbc.Driver";
-    final public static String DBURL = "jdbc:mysql://127.0.0.1:3307/samp";
-    final public static String DBusername = "root";
-    final public static String DBpassword = "";
-    final public static String email = "maurishkapark007@gmail.com";
-    final public static String ePass = "Admin123#";
-    final public static String paytmMID = "dBQcSe88042169273317";
-    final public static String paytmCHANNEL_ID = "WEB";
-    final public static String paytmINDUSTRY_TYPE_ID = "Retail";
-    final public static String paytmWEBSITE = "WEBSTAGING";
+    final public static String DriverURL = "com.mysql.cj.jdbc.Driver"; //Database driver
+    final public static String DBURL = "jdbc:mysql://127.0.0.1:3307/samp"; //Database URL
+    final public static String DBusername = "root"; //Database Username
+    final public static String DBpassword = ""; //Databade password
+    final public static String email = "maurishkapark007@gmail.com"; //Email
+    final public static String ePass = "Admin123#"; //Password of email
+    final public static String paytmMID = "dBQcSe88042169273317"; //Paytm merchant ID
+    final public static String paytmCHANNEL_ID = "WEB"; //Paytm channel ID
+    final public static String paytmINDUSTRY_TYPE_ID = "Retail"; //Industry Type
+    final public static String paytmWEBSITE = "WEBSTAGING"; //Website
 }
