@@ -32,11 +32,12 @@
                 s.close();
                 con.close();
             }
-            catch(Exception e
+            }
+            catch(Exception e)
             {
                 out.print(e.getMessage());
             }
         %></div>
-        <%@include file="Footer.jsp" %
+        <%@include file="Footer.jsp" %>
     </body>
 </html>
